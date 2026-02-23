@@ -59,16 +59,16 @@ EJBCA also supports hybrid certificates that combine PQC and traditional algorit
 
 | Module | Description |
 |--------|-------------|
-| [00 - Introduction](00_ejbca_migration_intro.md) | Architecture overview, objectives, and why native creation |
-| [01 - Prerequisites](01_ejbca_prerequisites.md) | OpenJDK 21, Apache Ant, system dependencies |
-| [02 - Configurations](02_ejbca_configurations.md) | EJBCA configuration files and properties |
-| [03 - Database](03_ejbca_database.md) | MariaDB setup, database creation, user privileges |
-| [04 - WildFly](04_ejbca_wildfly.md) | WildFly 35 setup, datasource, 3-port TLS configuration |
-| [05 - Deploy](05_ejbca_deploy.md) | Clone EJBCA CE v9.3, build with Ant, deploy |
-| [06 - Install](06_ejbca_install.md) | Management CA, keystores, TLS initialization |
-| [07 - Create PQC CAs](07_ejbca_create_pqc_ca.md) | Native ML-DSA Root and Intermediate CA creation |
-| [08 - Finalize](08_ejbca_finalize.md) | Browser setup, verification, and testing |
-| [09 - Reference](09_ejbca_reference.md) | Deployment reference, CLI cheat sheets, and troubleshooting |
+| [00 - Introduction](/ejbca-pqc/00_ejbca_migration_intro.md.md) | Architecture overview, objectives, and why native creation |
+| [01 - Prerequisites](/ejbca-pqc/01_ejbca_prerequisites.md.md) | OpenJDK 21, Apache Ant, system dependencies |
+| [02 - Configurations](/ejbca-pqc/02_ejbca_configurations.md.md) | EJBCA configuration files and properties |
+| [03 - Database](/ejbca-pqc/03_ejbca_database.md.md) | MariaDB setup, database creation, user privileges |
+| [04 - WildFly](/ejbca-pqc/04_ejbca_wildfly.md.md) | WildFly 35 setup, datasource, 3-port TLS configuration |
+| [05 - Deploy](/ejbca-pqc/05_ejbca_deploy.md.md) | Clone EJBCA CE v9.3, build with Ant, deploy |
+| [06 - Install](/ejbca-pqc/06_ejbca_install.md.md) | Management CA, keystores, TLS initialization |
+| [07 - Create PQC CAs](/ejbca-pqc/07_ejbca_create_pqc_ca.md.md) | Native ML-DSA Root and Intermediate CA creation |
+| [08 - Finalize](/ejbca-pqc/08_ejbca_finalize.md.md) | Browser setup, verification, and testing |
+| [09 - Reference](/ejbca-pqc/09_ejbca_reference.md.md) | Deployment reference, CLI cheat sheets, and troubleshooting |
 
 ## Prerequisites
 
@@ -76,7 +76,7 @@ You should seriously complete [Part 1 — the OpenSSL PQC Lab](https://github.co
 
 ## Get Started
 
-**[Start with Module 00 -->](00_ejbca_migration_intro.md)**
+**[Start with Module 00 -->](/ejbca-pqc/00_ejbca_migration_intro.md)**
 
 ## References
 
